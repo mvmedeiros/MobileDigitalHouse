@@ -6,10 +6,7 @@
 */
 
 fun main(){
-    println("-- O programa imprime os primeiros números positivos ímpares. Caso não seja informado" +
-            "um valor, o default será 100. --")
-    println("Digite qualquer coisa e tecle enter para iniciar.")
-
+    println("-- O programa imprime 100 os primeiros números positivos ímpares --")
 
     primeirosImparesPositivos(100)
 }
