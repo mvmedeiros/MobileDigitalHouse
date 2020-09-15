@@ -6,7 +6,7 @@
                             ímpar. Dica: utilize o operador módulo (resto da divisão).
 */
 
-package aula005
+package aula05
 
 fun main() {
     println("------ NÍVEL 1 - EXERCÍCIO 3 ------")

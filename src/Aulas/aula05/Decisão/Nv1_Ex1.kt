@@ -2,7 +2,9 @@
     Autor: Marcus Medeiros
     Aula 5: Exercícios Decisão
 
-    Nível 1 - Exercício 1: Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
+    Nível 1 - Exercício 1: Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a
+                           letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+
 */
 
 package aula005
