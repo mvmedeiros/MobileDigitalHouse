@@ -15,12 +15,12 @@ class Concessionaria() {
 
     fun exibirRegistro(){
         println("Exibindo registro de vendas:")
-        registrosVenda.forEach{
-            println("Registro:")
-            println("Cliente: ${it.cliente.nomeCompleto}")
-            println("Veículo: ${it.veiculo.modelo}, ${it.veiculo.anoFabricacao}, " +
-                    "${it.veiculo.cor}, ${it.veiculo.quilometragem} km(s).")
-            println("Valor: R$ ${"%.2f".format(it.valorVenda)}.")
+        registrosVenda.forEachIndexed{index, element ->
+            println("Registro ${index+1}:")
+            println("Cliente: ${element.cliente.nomeCompleto}")
+            println("Veículo: ${element.veiculo.modelo}, ${element.veiculo.anoFabricacao}, " +
+                    "${element.veiculo.cor}, ${element.veiculo.quilometragem} km(s).")
+            println("Valor: R$ ${"%.2f".format(element.valorVenda)}.")
             println()
         }
     }

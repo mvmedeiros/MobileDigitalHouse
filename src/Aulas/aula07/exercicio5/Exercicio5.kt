@@ -10,12 +10,9 @@ fun main(){
     val relampagoMarquinhos = Veiculo("Pixar","Relâmpago Marquinhos",2006,"Vermelho",57099.5)
 
     val concessionaria = Concessionaria()
-    val venda1 = Venda(cliente1,cybertruck,170000.0)
-    val venda2 = Venda(cliente2,fusca,12000.0)
-    val venda3 = Venda(cliente3,relampagoMarquinhos,80500.0)
-    concessionaria.registrarVenda(venda1)
-    concessionaria.registrarVenda(venda2)
-    concessionaria.registrarVenda(venda3)
+    concessionaria.registrarVenda(Venda(cliente1,cybertruck,170000.0))
+    concessionaria.registrarVenda(Venda(cliente2,fusca,12000.0))
+    concessionaria.registrarVenda(Venda(cliente3,relampagoMarquinhos,80500.0))
 
     concessionaria.exibirRegistro()
 }
