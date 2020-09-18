@@ -1,5 +1,7 @@
 package Aulas.aula08_09
 
+import kotlin.Int as Int
+
 fun main(){
 
     val muquirana = Banco()
