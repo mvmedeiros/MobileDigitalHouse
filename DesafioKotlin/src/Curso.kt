@@ -17,9 +17,4 @@ class Curso(val nome: String,
     fun excluirAluno(umAluno: Aluno){
         listaDeAlunos.remove(umAluno)
     }
-
-    override fun toString(): String {
-        return "Curso(nome='$nome', codigo=$codigo, maximoDeAlunos=$maximoDeAlunos, listaDeAlunos=$listaDeAlunos, professorTitular=$professorTitular, professorAdjunto=$professorAdjunto)"
-    }
-
 }
