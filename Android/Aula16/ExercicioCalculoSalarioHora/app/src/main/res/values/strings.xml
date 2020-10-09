@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExercicioCalculoSalarioHora</string>
+    <string name="btn1">Calcular</string>
+    <string name="btn2">Apagar</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Meu Nome</string>
+    <string name="exibir">Exibir</string>
+    <string name="apagar_nome">Apagar nome</string>
+</resources>
